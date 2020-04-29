@@ -1,12 +1,45 @@
+/*jshint esversion: 6 */
 // datatypes
-let x = 16;		// x is a number
-let x = "Hi";	// x is a string
-let x = true;	// x is a Boolean
-let x;			// x is undefined
+let a = 16;		// a is a number
+let b = "Hi";	// b is a string
+let c = true;	// c is a Boolean
+let d;				// d is undefined
 
 // variables
-let a = 1 // can be updated but not used twice within the same scope
-const b = 1 // use whenever the value will remain constant
+let e = 1; // can be updated but not used twice within the same scope
+const f = 1; // use whenever the value will remain constant
+
+// switch case
+const month = 4;
+switch(month){
+				case 1:
+								console.log("Jan");
+								break;
+				case 2:
+								console.log("Feb");
+								break;
+				default:
+								console.log("Mar");
+}
+
+// conditional for
+for(let i=0; i<=10; i++){
+				console.log(i);
+}
+
+// while
+let i = 0;
+while(i <= 10){
+				console.log(i);
+				i++;
+}
+
+// do while
+let h = 1;
+do {
+				console.log(h);
+				h++;
+} while(h <= 10);
 
 // objects
 const person = {
@@ -19,4 +52,4 @@ const person = {
 };
 
 // arrow functions
-const sayMyName = (name) => {alert(`Hello ${name}!`)};
+const sayMyName = (name) => {alert(`Hello ${name}!`);}
