@@ -52,4 +52,7 @@ const person = {
 };
 
 // arrow functions
-const sayMyName = (name) => {alert(`Hello ${name}!`);}
+const sayMyName = (name) => {alert(`Hello ${name}!`);};
+const anArrowFunction = () => console.log("Sup");
+
+
