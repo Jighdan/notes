@@ -2,14 +2,14 @@
 Write a function min that takes two arguments and returns their minimum.
 */
 
-const minimum = (arg1, arg2) => Math.min([arg1, arg2]);
+const minimum = (arg1, arg2) => Math.min(arg1, arg2);
 
 /*
 Define a recursive function isEven corresponding to this description. The function should accept a single parameter (a positive, whole number) and return a Boolean
 */
 
 const isEven = (number) => {
-	while true {
+	while (true) {
 		if (number == 0 || number == 1) {
 			return number;
 		} else {
@@ -36,4 +36,11 @@ const countChar = (text, character) => {
 		};
 	};
 	return count
+}
+
+module.exports = {
+	minimum,
+	isEven,
+	countBs,
+	countChar
 }

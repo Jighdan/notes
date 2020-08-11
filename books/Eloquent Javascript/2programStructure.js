@@ -11,9 +11,11 @@ Write a loop that makes seven calls to console.log to output the following trian
 */
 
 function loopingTriangle (loops) {
+	const triangle = [];
 	for (let line = "#"; line < loops; line += "#") {
-		console.log(line);
-	}
+		triangle.push(line);
+	};
+	return triangle;
 };
 
 /*
@@ -30,7 +32,7 @@ function fizzBuzz () {
 		let output = "";
 		if (num % 3 == 0) { output += "Fizz" };
 		if (num % 5 == 0) { output += "Buzz" };
-		console.log(output ? output : num);
+		return output ? output : num;
 	}
 };
 
@@ -52,5 +54,11 @@ function chessboard (size) {
 		}
 		board += "\n"
 	}
-	console.log(board);
+	return board;
+};
+
+module.exports = {
+	loopingTriangle,
+	fizzBuzz,
+	chessboard
 };
