@@ -1,5 +1,7 @@
-# What is an Algorithm?
-Algorithms are the ideas behind computer programs.
+# Algorithms Analysis
+
+## What is an Algorithm?
+- Algorithms are the ideas behind computer programs.
 An algorithmic problem is specified by describing the set of instances it must work on, and what desired properties the output must have.
 
 ### Example Problem: Sorting
@@ -10,7 +12,7 @@ An algorithmic problem is specified by describing the set of instances it must w
 For any algorithm, we must prove that it always return the desired output for all legal instances of the problems.
 
 ### Example Problem: Shortest Tour
-An idea is to repreatedly connect the closest pair of points whose connection will not cause a cycle or a three-way branch, until all points are in one tour.
+An idea is to repeatedly connect the closest pair of points whose connection will not cause a cycle or a three-way branch, until all points are in one tour.
 ```
 let `n` be the number of points in the set
 d = Infinite
